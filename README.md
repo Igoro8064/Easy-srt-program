@@ -1,1 +1,1 @@
-# Easy-srt-program
+# easySRT
