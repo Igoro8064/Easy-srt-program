@@ -1,0 +1,24 @@
+{
+  "name": "easysrt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.1.0",
+    "node-gyp": "^10.2.0"
+  }
+
+}

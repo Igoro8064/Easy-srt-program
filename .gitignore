@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
+# Node.js dependencies
+/node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Electron build files
+/.electron/
+*.asar
 
-# Precompiled Headers
-*.gch
-*.pch
+# C++ build artifacts
+/cpp/build/
+/cpp/src/*.o
+/cpp/src/*.obj
+/cpp/src/*.gch
+/cpp/src/*.pdb
+/cpp/src/*.ilk
+/cpp/src/*.exp
+/cpp/src/*.lib
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# MacOS Finder metadata
+.DS_Store
+/.vscode/
 
-# Fortran module files
-*.mod
-*.smod
+# Windows thumbnail cache
+Thumbs.db
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Log files
+*.log
 
-# Executables
-*.exe
-*.out
-*.app
+# Environment files
+.env
+
+# Miscellaneous
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
